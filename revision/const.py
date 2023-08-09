@@ -19,5 +19,5 @@ def power2(num):
 	return num * num
 
 
-def powerof(num1, num2)
+def powerof(num1, num2):
 	return num1 ** num2

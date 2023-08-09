@@ -47,7 +47,6 @@ the diference between for loop and while loop:
 
 2- The while loop is usually used when the number of iterations is unknown.
 
-
 ''''
 
 
