@@ -1,0 +1,11 @@
+wfuzz
+test
+robots
+about
+test1
+test2
+admin
+Admin
+password
+this is the list to test everything for next worksheet 
+test it will and goodluck
