@@ -1,2 +1,0 @@
-learn about python package and global variables
-

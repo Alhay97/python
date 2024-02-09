@@ -1,5 +1,0 @@
-text at line1: CSF 2113
-text at line2: Programing for information security
-text at line3: SWC
-text at line4: Sharjah
-text at line5: UAE
