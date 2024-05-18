@@ -48,26 +48,21 @@ def encode_to_morse(text):
         if char in MORSE_CODE_DICT:
             morse_code += MORSE_CODE_DICT[char] + " "
         else:
-            raise AssertionError("Unexpected character found")
+            raise AssertionError("AssertionError: the arguments are bad")
     return morse_code.strip()
 
 
 def check_input(string):
-    # Ensure all characters are either alphabets, digits, or spaces
     if not all(char.isalnum() or char == ' ' for char in string):
-        raise AssertionError("AssertionError: the arguments are bad")
+        raise AssertionError("AssertionError: There are bad Character")
 
 
 def main():
     try:
-        # Check for the correct number of arguments
         if len(sys.argv) != 2:
             raise AssertionError("AssertionError: the arguments are bad")
-        
         st = sys.argv[1]
-        # Validate the input
         check_input(st)
-        # Encode to Morse
         code = encode_to_morse(st)
         print(code)
     except AssertionError as error:
